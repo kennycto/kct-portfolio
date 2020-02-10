@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kct-portfolio/static/css/main.9078fad5.chunk.css",
+    "main.js": "/kct-portfolio/static/js/main.9c153358.chunk.js",
+    "main.js.map": "/kct-portfolio/static/js/main.9c153358.chunk.js.map",
+    "runtime-main.js": "/kct-portfolio/static/js/runtime-main.aa67c6c7.js",
+    "runtime-main.js.map": "/kct-portfolio/static/js/runtime-main.aa67c6c7.js.map",
+    "static/css/2.ff8bd605.chunk.css": "/kct-portfolio/static/css/2.ff8bd605.chunk.css",
+    "static/js/2.d4e0cbb8.chunk.js": "/kct-portfolio/static/js/2.d4e0cbb8.chunk.js",
+    "static/js/2.d4e0cbb8.chunk.js.map": "/kct-portfolio/static/js/2.d4e0cbb8.chunk.js.map",
+    "index.html": "/kct-portfolio/index.html",
+    "precache-manifest.24f888ab5aec81284b625dbf8d260b04.js": "/kct-portfolio/precache-manifest.24f888ab5aec81284b625dbf8d260b04.js",
+    "service-worker.js": "/kct-portfolio/service-worker.js",
+    "static/css/2.ff8bd605.chunk.css.map": "/kct-portfolio/static/css/2.ff8bd605.chunk.css.map",
+    "static/css/main.9078fad5.chunk.css.map": "/kct-portfolio/static/css/main.9078fad5.chunk.css.map",
+    "static/js/2.d4e0cbb8.chunk.js.LICENSE": "/kct-portfolio/static/js/2.d4e0cbb8.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa67c6c7.js",
+    "static/css/2.ff8bd605.chunk.css",
+    "static/js/2.d4e0cbb8.chunk.js",
+    "static/css/main.9078fad5.chunk.css",
+    "static/js/main.9c153358.chunk.js"
+  ]
+}
