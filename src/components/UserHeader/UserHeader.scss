@@ -1,0 +1,73 @@
+.UserHeader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+
+	.title {
+		font-size: 3em;
+	}
+
+	@media (max-width: 640px) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+
+	img {
+		height: 200px;
+		width: 200px; 
+		margin-right: 2em;
+		border-radius: 50%;
+		animation-delay: 3s;
+
+		@media (max-width: 640px) {
+			margin-right: 0em;
+			margin-bottom: 1em;
+		}
+	}
+	
+	.details {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.view-resume-link {
+		display: flex;
+		text-decoration: none;
+		padding: 0.75rem 1.5rem;
+		font-weight: bold;
+		align-items: center;
+		margin-top: 1rem;
+		background-color: rgba(46, 204, 64, 0.3);
+		transition: background-color 250ms ease;
+		&:hover {
+			background-color: #2ecc40;
+		}
+		svg {
+			fill: white;
+			margin-left: 8px;
+		}
+	}
+}
+
+.UserHeader-avatar {
+	transition: all .2s ease-in-out;
+}
+
+.UserHeader-avatar:hover {
+	transform: scale(1.1);
+}
+
+@keyframes avatar-grow {
+	from {
+		transform: scale(1)
+	}
+	to {
+		transform: scale(1.1)
+	}
+}
+  
