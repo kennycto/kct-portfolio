@@ -1,11 +1,17 @@
-import React, { Component } from 'react';
-import { ListItem, ListItemTitle, ListItemSubTitle, Paragraph } from '../../styles.js'
+import React, { Component } from "react";
+import {
+	ListItem,
+	ListItemTitle,
+	ListItemSubTitle,
+	Paragraph
+} from "../../styles.js";
+import { PageElem } from "../pagesStyles.js";
 
 class Education extends Component {
 	render() {
 		const user = this.props.user;
 		return (
-			<div className="page">
+			<PageElem className="page">
 				<div className="section-title">Education</div>
 				<ul>
 					{user.education.map((education, i) => (
@@ -15,17 +21,20 @@ class Education extends Component {
 								<ListItemSubTitle>
 									{education.studyType}, {education.area}
 								</ListItemSubTitle>
-								<span>&nbsp;&sdot;&nbsp;</span> 
+								<span>&nbsp;&sdot;&nbsp;</span>
 								<span>
-									{education.start.year} to {education.end.year}
+									{education.start.year} to{" "}
+									{education.end.year}
 								</span>
 							</div>
-							<Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
+							<Paragraph>
+								{education.description.replace("\n\n", "\n")}
+							</Paragraph>
 						</ListItem>
 					))}
 				</ul>
-			</div>
-		)
+			</PageElem>
+		);
 	}
 }
 

@@ -2,6 +2,10 @@
 	margin-top: 1.5rem;
 	margin-bottom: 0.5rem;
 	font-size: 1.5em;
+
+	@media (max-width: 640px) {
+		margin-top: 0.5rem;
+	}
 }
 
 .pill {
