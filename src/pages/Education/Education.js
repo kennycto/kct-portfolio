@@ -1,11 +1,20 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 import {
 	ListItem,
 	ListItemTitle,
 	ListItemSubTitle,
 	Paragraph
 } from "../../styles.js";
+import "../../styles.scss";
 import { PageElem } from "../pagesStyles.js";
+
+const EducationItem = styled.div`
+	@media (max-width: 640px) {
+		display: flex;
+		flex-direction: column;
+	}
+`;
 
 class Education extends Component {
 	render() {
@@ -16,17 +25,21 @@ class Education extends Component {
 				<ul>
 					{user.education.map((education, i) => (
 						<ListItem key={i}>
-							<ListItemTitle>{education.position}</ListItemTitle>
-							<div>
+							<ListItemTitle>
+								{education.institution}
+							</ListItemTitle>
+							<EducationItem>
 								<ListItemSubTitle>
 									{education.studyType}, {education.area}
 								</ListItemSubTitle>
-								<span>&nbsp;&sdot;&nbsp;</span>
+								<span className="item-separator">
+									&nbsp;&sdot;&nbsp;
+								</span>
 								<span>
 									{education.start.year} to{" "}
 									{education.end.year}
 								</span>
-							</div>
+							</EducationItem>
 							<Paragraph>
 								{education.description.replace("\n\n", "\n")}
 							</Paragraph>

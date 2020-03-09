@@ -28,3 +28,9 @@
 ul {
 	padding-inline-start: 0px;
 }
+
+.item-separator {
+	@media (max-width: 640px) {
+		display: none;
+	}
+}
