@@ -1,11 +1,11 @@
 import * as actionTypes from "../actions/actionTypes";
 
-const initialState = {};
+const initialState = "/";
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case actionTypes.SAVE:
-            return { ...action.profile };
+        case actionTypes.SET_PAGE:
+            return action.pageValue;
         default:
             return state;
     }
