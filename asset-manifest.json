@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://knyto2.github.io/kct-portfolio/static/css/main.ed144c29.chunk.css",
-    "main.js": "https://knyto2.github.io/kct-portfolio/static/js/main.5358c0ce.chunk.js",
-    "main.js.map": "https://knyto2.github.io/kct-portfolio/static/js/main.5358c0ce.chunk.js.map",
-    "runtime-main.js": "https://knyto2.github.io/kct-portfolio/static/js/runtime-main.e0751321.js",
-    "runtime-main.js.map": "https://knyto2.github.io/kct-portfolio/static/js/runtime-main.e0751321.js.map",
-    "static/js/2.ecbea415.chunk.js": "https://knyto2.github.io/kct-portfolio/static/js/2.ecbea415.chunk.js",
-    "static/js/2.ecbea415.chunk.js.map": "https://knyto2.github.io/kct-portfolio/static/js/2.ecbea415.chunk.js.map",
-    "index.html": "https://knyto2.github.io/kct-portfolio/index.html",
-    "precache-manifest.ae40db990eda1308dbde0934fd944d35.js": "https://knyto2.github.io/kct-portfolio/precache-manifest.ae40db990eda1308dbde0934fd944d35.js",
-    "service-worker.js": "https://knyto2.github.io/kct-portfolio/service-worker.js",
-    "static/css/main.ed144c29.chunk.css.map": "https://knyto2.github.io/kct-portfolio/static/css/main.ed144c29.chunk.css.map",
-    "static/js/2.ecbea415.chunk.js.LICENSE.txt": "https://knyto2.github.io/kct-portfolio/static/js/2.ecbea415.chunk.js.LICENSE.txt"
+    "main.css": "/kct-portfolio/static/css/main.ed144c29.chunk.css",
+    "main.js": "/kct-portfolio/static/js/main.5358c0ce.chunk.js",
+    "main.js.map": "/kct-portfolio/static/js/main.5358c0ce.chunk.js.map",
+    "runtime-main.js": "/kct-portfolio/static/js/runtime-main.be2709aa.js",
+    "runtime-main.js.map": "/kct-portfolio/static/js/runtime-main.be2709aa.js.map",
+    "static/js/2.e2a7f974.chunk.js": "/kct-portfolio/static/js/2.e2a7f974.chunk.js",
+    "static/js/2.e2a7f974.chunk.js.map": "/kct-portfolio/static/js/2.e2a7f974.chunk.js.map",
+    "index.html": "/kct-portfolio/index.html",
+    "precache-manifest.2effe69b2d6587f188e191d7437536b8.js": "/kct-portfolio/precache-manifest.2effe69b2d6587f188e191d7437536b8.js",
+    "service-worker.js": "/kct-portfolio/service-worker.js",
+    "static/css/main.ed144c29.chunk.css.map": "/kct-portfolio/static/css/main.ed144c29.chunk.css.map",
+    "static/js/2.e2a7f974.chunk.js.LICENSE.txt": "/kct-portfolio/static/js/2.e2a7f974.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0751321.js",
-    "static/js/2.ecbea415.chunk.js",
+    "static/js/runtime-main.be2709aa.js",
+    "static/js/2.e2a7f974.chunk.js",
     "static/css/main.ed144c29.chunk.css",
     "static/js/main.5358c0ce.chunk.js"
   ]
