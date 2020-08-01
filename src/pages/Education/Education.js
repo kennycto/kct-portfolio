@@ -29,15 +29,17 @@ class Education extends Component {
                             </ListItemTitle>
                             <EducationItem>
                                 <ListItemSubTitle>
-                                    {education.studyType}, {education.area}
+                                    <span>
+                                        {education.studyType}, {education.area}
+                                    </span>
+                                    <span className="item-separator">
+                                        &nbsp;&sdot;&nbsp;
+                                    </span>
+                                    <span>
+                                        {education.start.year} to{" "}
+                                        {education.end.year}
+                                    </span>
                                 </ListItemSubTitle>
-                                <span className="item-separator">
-                                    &nbsp;&sdot;&nbsp;
-                                </span>
-                                <span>
-                                    {education.start.year} to{" "}
-                                    {education.end.year}
-                                </span>
                             </EducationItem>
                             <Paragraph>
                                 {education.description.replace("\n\n", "\n")}
