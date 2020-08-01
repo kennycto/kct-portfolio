@@ -5,11 +5,10 @@ import styled from "styled-components";
 
 import { Switch, Route, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-import Me from "./Me";
-import Projects from "./Projects";
-import Work from "./Work";
-import Education from "./Education";
-import "./pages.scss";
+import Me from "./Me/Me";
+import Projects from "./Projects/Projects";
+import Work from "./Work/Work";
+import Education from "./Education/Education";
 import { PageActions } from "../store/actions";
 
 const PageContainer = styled.div`

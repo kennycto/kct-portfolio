@@ -6,7 +6,7 @@ import { ProfileActions } from "./store/actions/index";
 
 import Nav from "./components/Nav";
 import UserHeader from "./components/UserHeader";
-import Pages from "./pages/Pages";
+import Pages from "./pages";
 
 class App extends React.Component {
     render() {

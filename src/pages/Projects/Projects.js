@@ -18,7 +18,16 @@ class Projects extends Component {
                     {user.projects.map((project, i) => (
                         <ListItem key={i}>
                             <ListItemTitle>{project.name}</ListItemTitle>
-                            <span>{this.processLinks(project.summary)}</span>
+                            <div>{project.summary}</div>
+                            <div>
+                                <a
+                                    href={project.website}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {project.website}
+                                </a>
+                            </div>
                             <SkillContainer>
                                 {[
                                     ...project.languages,
@@ -36,19 +45,6 @@ class Projects extends Component {
                     ))}
                 </ul>
             </PageElem>
-        );
-    }
-
-    processLinks(str) {
-        const regex = /(.*)\((.*)\)/;
-        const found = str.match(regex);
-        return (
-            <div>
-                <span>{found[1]}</span>
-                <a href={found[2]} target="_blank" rel="noopener noreferrer">
-                    {found[2]}
-                </a>
-            </div>
         );
     }
 }
