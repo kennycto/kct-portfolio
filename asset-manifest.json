@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/kct-portfolio/static/css/main.010b575e.chunk.css",
-    "main.js": "/kct-portfolio/static/js/main.275130a4.chunk.js",
-    "main.js.map": "/kct-portfolio/static/js/main.275130a4.chunk.js.map",
-    "runtime-main.js": "/kct-portfolio/static/js/runtime-main.aa67c6c7.js",
-    "runtime-main.js.map": "/kct-portfolio/static/js/runtime-main.aa67c6c7.js.map",
-    "static/css/2.ff8bd605.chunk.css": "/kct-portfolio/static/css/2.ff8bd605.chunk.css",
-    "static/js/2.9a104194.chunk.js": "/kct-portfolio/static/js/2.9a104194.chunk.js",
-    "static/js/2.9a104194.chunk.js.map": "/kct-portfolio/static/js/2.9a104194.chunk.js.map",
+    "main.css": "/kct-portfolio/static/css/main.3efbf2da.chunk.css",
+    "main.js": "/kct-portfolio/static/js/main.0064818a.chunk.js",
+    "main.js.map": "/kct-portfolio/static/js/main.0064818a.chunk.js.map",
+    "runtime-main.js": "/kct-portfolio/static/js/runtime-main.be2709aa.js",
+    "runtime-main.js.map": "/kct-portfolio/static/js/runtime-main.be2709aa.js.map",
+    "static/js/2.d88c90ba.chunk.js": "/kct-portfolio/static/js/2.d88c90ba.chunk.js",
+    "static/js/2.d88c90ba.chunk.js.map": "/kct-portfolio/static/js/2.d88c90ba.chunk.js.map",
     "index.html": "/kct-portfolio/index.html",
-    "precache-manifest.64ee82e8a5d724fede7ed8c3e976a60e.js": "/kct-portfolio/precache-manifest.64ee82e8a5d724fede7ed8c3e976a60e.js",
+    "precache-manifest.8fac1071f37fcd91f728d3c38fbfedd9.js": "/kct-portfolio/precache-manifest.8fac1071f37fcd91f728d3c38fbfedd9.js",
     "service-worker.js": "/kct-portfolio/service-worker.js",
-    "static/css/2.ff8bd605.chunk.css.map": "/kct-portfolio/static/css/2.ff8bd605.chunk.css.map",
-    "static/css/main.010b575e.chunk.css.map": "/kct-portfolio/static/css/main.010b575e.chunk.css.map",
-    "static/js/2.9a104194.chunk.js.LICENSE": "/kct-portfolio/static/js/2.9a104194.chunk.js.LICENSE"
+    "static/css/main.3efbf2da.chunk.css.map": "/kct-portfolio/static/css/main.3efbf2da.chunk.css.map",
+    "static/js/2.d88c90ba.chunk.js.LICENSE.txt": "/kct-portfolio/static/js/2.d88c90ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa67c6c7.js",
-    "static/css/2.ff8bd605.chunk.css",
-    "static/js/2.9a104194.chunk.js",
-    "static/css/main.010b575e.chunk.css",
-    "static/js/main.275130a4.chunk.js"
+    "static/js/runtime-main.be2709aa.js",
+    "static/js/2.d88c90ba.chunk.js",
+    "static/css/main.3efbf2da.chunk.css",
+    "static/js/main.0064818a.chunk.js"
   ]
 }
