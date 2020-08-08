@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './App.scss';
 
 import { connect } from 'react-redux';
@@ -9,6 +10,10 @@ import UserHeader from './components/UserHeader';
 import Pages from './pages';
 
 class App extends React.Component {
+  static propTypes = {
+    getProfile: PropTypes.func,
+  };
+
   componentDidMount() {
     this.props.getProfile();
   }
