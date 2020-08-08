@@ -47,7 +47,6 @@
   },
   "homepage": "https://knyto2.github.io/kct-portfolio",
   "devDependencies": {
-    "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",
