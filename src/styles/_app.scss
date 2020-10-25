@@ -1,26 +1,26 @@
 .pill {
-	margin: .25rem;
+  margin: 0.25rem;
 }
 
 .page {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
 
-	@media (max-width: 640px) {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+  @media (max-width: 640px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 ul {
-	padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 .item-separator {
-	@media (max-width: 640px) {
-		display: none;
-	}
+  @media (max-width: 640px) {
+    display: none;
+  }
 }
