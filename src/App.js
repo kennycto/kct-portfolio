@@ -7,15 +7,12 @@ import { ProfileActions } from './store/actions/index';
 
 import Nav from './components/Nav';
 import UserHeader from './components/UserHeader';
-import { Pages } from './pages/';
+import { Pages } from './pages';
 
 class App extends React.Component {
-  static propTypes = {
-    getProfile: PropTypes.func,
-  };
-
   componentDidMount() {
-    this.props.getProfile();
+    const { getProfile } = this.props;
+    getProfile();
   }
 
   render() {
@@ -31,14 +28,18 @@ class App extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    user: state.user,
+    user: state.user
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getProfile: () => dispatch(ProfileActions.getProfile()),
+    getProfile: () => dispatch(ProfileActions.getProfile())
   };
+};
+
+App.propTypes = {
+  getProfile: PropTypes.func.isRequired
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
