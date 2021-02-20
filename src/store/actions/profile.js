@@ -1,7 +1,7 @@
 import * as actionTypes from "./actionTypes";
 import axios from "axios";
 
-const GITCONNECTED_API_URL = "https://gitconnected.com/v1/portfolio/knyto2";
+const GITCONNECTED_API_URL = "https://gitconnected.com/v1/portfolio/kennycto";
 
 const saveProfileSync = (profile) => {
     return {

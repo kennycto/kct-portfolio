@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://knyto2.github.io/kct-portfolio",
+  "homepage": "https://kennycto.github.io/kct-portfolio",
   "devDependencies": {
     "eslint": "^6",
     "eslint-config-airbnb": "^18.2.1",
